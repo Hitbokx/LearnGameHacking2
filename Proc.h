@@ -3,6 +3,7 @@
 #include <vector>
 #include <windows.h>
 #include <TlHelp32.h>
+#include <iostream>
 
 DWORD getProcId( const wchar_t* procName );
 
