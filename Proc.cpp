@@ -29,7 +29,7 @@ DWORD getProcId( const wchar_t* procName )
 	return procId;
 }
 
-uintptr_t getModuleBaseAddress( DWORD procId, const wchar_t* modName )
+uintptr_t getPtrModuleBaseAddress( DWORD procId, const wchar_t* modName )
 {
 	// initialize to zero for error checking
 	uintptr_t modBaseAddr{ 0 };

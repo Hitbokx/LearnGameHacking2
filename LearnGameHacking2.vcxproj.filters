@@ -16,18 +16,27 @@
     <Filter Include="Process">
       <UniqueIdentifier>{23518c5c-c6fb-4cca-8441-127d0aa5e6ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mem">
+      <UniqueIdentifier>{104c303e-0298-4238-b7af-ba8f41a6a0f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dummy Program.cpp">
+    <ClCompile Include="hackanyGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
     <ClCompile Include="Proc.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Process</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mem.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
     <ClInclude Include="Proc.h">
-      <Filter>Header Files</Filter>
+      <Filter>Process</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
